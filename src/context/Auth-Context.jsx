@@ -25,7 +25,7 @@ export default function AuthProvider({ children }) {
   useEffect(() => {
     if (isError) {
       setSession({ user: null })
-      console.log({ error })
+      console.log('Error: ', error)
     }
   }, [isError])
   return (

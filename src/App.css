@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.login-form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.login-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #0070f3;
+  color: #fff;
+  cursor: pointer;
+}
+.login-form button:hover {
+  background-color: #005cbf;
+}

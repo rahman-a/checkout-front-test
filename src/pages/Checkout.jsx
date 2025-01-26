@@ -15,8 +15,8 @@ export default function Checkout() {
   const { data, isSuccess, isError, error } = useOrderStatus(ref)
 
   useEffect(() => {
-    if (isSuccess) console.log({ data })
-    if (isError) console.log({ error })
+    if (isSuccess) console.log(data)
+    if (isError) console.log(error)
   }, [isSuccess, isError])
   return (
     <div>
